@@ -1,0 +1,122 @@
+/* 
+Theme Name: Dream Big English
+Theme URI: http://wordpress-orientation.localhost/wordpress_orientation
+Description: Dream Big English Theme
+Author: trd.isaac
+Author URI: iemanubag.wordpress.com
+Template: twentythirteen
+Version: 0.1
+*/
+
+@import url("../twentythirteen/style.css");
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+div.navbar{
+	background-color:transparent;
+}
+
+ul.nav-menu{
+	padding:0px !important;
+}
+
+.nav-menu li a{
+	padding:0px;
+	margin:0px;
+}
+
+div#page, body, .comment-respond, footer{
+	background:#f0f0ec;
+}
+
+.site-main{
+	max-width:970px;
+	margin:0 auto;
+}
+
+.entry-header, .entry-content, .entry-summary, .entry-meta{
+	margin: 0 auto;
+	max-width: 970px;
+	width: 100%;
+}
+
+.main-navigation{
+	max-width: 970px;
+}
+
+.site-footer {
+	background-color: #333;
+	color: #fff;
+}
+
+.header-logo{
+	margin: 25px auto;
+	max-width: 970px;
+	width: 100%;
+}
+
+.top-content{
+	height:50px;
+	width:100%;
+	background-color:#333;
+	padding:0px;
+	margin:0px;
+}
+
+.top-content-text{
+	margin: 0px auto;
+	max-width: 970px;
+	color:#fff;
+}
+
+.top-content-text p{
+	font-size:12px;
+	margin-top:15px;
+}
+
+.comments-area{
+	display:none;
+}
+
+.pre-footer{
+	margin: 0px auto !important;
+	max-width: 970px;
+	border:1px solid #e3e3e3;
+	background-color:#fff;
+	margin-bottom:40px;
+	padding:45px;
+}
+
+.footer-spacer{
+	height:40px;
+}
+
+.company-info{
+	width:255px;
+	
+}
+
+.company-address{
+	font-size:14px;
+	margin-top:10px;
+}
+
+.company-links{
+	padding-left:10px;
+	width:170px;
+}
+
+.company-map{
+	width:340px;
+	padding-left:90px;
+}
+
+/* menu hovers */
+.page_item_news{
+	background-image:url('http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/news_menu.png');
+}
