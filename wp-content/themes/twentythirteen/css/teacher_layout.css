@@ -1,0 +1,73 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	padding: 0;
+	background-color: #f0f0f0;
+}
+.border {
+	border: 0px solid black;
+}
+.teacher_container { 
+	margin: 0;
+}
+.teacher_header_wrap{
+	border: 0px solid white;
+	background: url('star.png');
+	color: white;
+	height: 30px;
+	padding-top: 10px;
+}
+
+.t_lefthead_text {
+	float: left;
+	margin-left: 166px;
+}
+.t_righthead_text {
+	float: right;
+	margin-right: 166px;
+}
+.teacher_body {
+	background-color: none;
+	margin: 0 auto;
+	width: 75%;
+}
+.t_body_head {
+	background-color: white;
+	padding: 20px;
+	height: auto;
+}
+.teacher_dbelogo{
+	padding-top: 15px;
+	width: 100%;
+	height: 90px;
+}
+.teacher_navigation{
+	background-color: white;
+	width: 100%;
+	height: 50px;
+	margin-top: 1px;
+}
+.t_nav_ul {
+	margin-left: -41px;
+}
+.t_nav_ul li{
+	border: 1px solid #f0f0f0;
+	float: left;
+	padding: 0 2px;
+	list-style-type: none;
+}
+.teacher_intro {
+	border-top: 3px solid #f0f0f0;
+	margin-top: 60px;
+	padding-top: 20px;
+}
+.teachers_statement{
+	padding: 40px;
+	height: 500px;
+	background-color: #f1f1f1;
+	margin-top: 30px;
+}
+.t_mary  {
+	border: 1px solid black;
+	width: 400px;
+}
