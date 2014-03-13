@@ -28,6 +28,15 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+	<script type="text/javascript">
+	 document.createElement('header');
+	 document.createElement('nav');
+	 document.createElement('menu');
+	 document.createElement('section');
+	 document.createElement('article');
+	 document.createElement('aside');
+	 document.createElement('footer');
+	</script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -43,88 +52,24 @@
 						初級者から上級者までレベルに合わせた学習プログラム
 					</p>
 					<p class="right">
-						よくあるご質問&nbsp;&nbsp;|&nbsp;&nbsp;お問い合わせ
+						<a href="#">よくあるご質問</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">お問い合わせ</a>
 					</p>
 				</div>
 			</div>
 			<div class="header-logo">
-				<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/DBE_logo2.png" />
+				<a href="#">
+					<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/DBE_logo2.png" alt="Dream Big English Logo"/>
+				</a>
 			</div>
+			
 			<div id="navbar" class="navbar">
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
-					<h3 class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></h3>
-					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
-					<ul class="nav-menu">
-						<li class="page_item ">
-							<a href="#">
-								<span class="page_item_news">
-									
-								</span>
-							</a>
-						</li>
-						<li class="page_item">
-							<a href="">
-								<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/features_menu.png"/>
-							</a>
-						</li>
-						<li class="page_item">
-							<a href="">
-								<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/curriculum_menu.png"/>
-							</a>
-						</li>
-						<li class="page_item">
-							<a href="">
-								<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/student_life_menu.png"/>
-							</a>
-						</li>
-						<li class="page_item">
-							<a href="">
-								<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/accommodation_menu.png"/>
-							</a>
-						</li>
-						<li class="page_item">
-							<a href="">
-								<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/how_to_play_menu.png"/>
-							</a>
-						</li>
-					</ul>
-					<ul class="nav-menu">
-						<li class="page_item ">
-							<a href="">
-								<img class="page_item_news" src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/news_menu.png"/>
-							</a>
-						</li>
-						<li class="page_item">
-							<a href="">
-								<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/features_menu.png"/>
-							</a>
-						</li>
-						<li class="page_item">
-							<a href="">
-								<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/curriculum_menu.png"/>
-							</a>
-						</li>
-						<li class="page_item">
-							<a href="">
-								<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/student_life_menu.png"/>
-							</a>
-						</li>
-						<li class="page_item">
-							<a href="">
-								<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/accommodation_menu.png"/>
-							</a>
-						</li>
-						<li class="page_item">
-							<a href="">
-								<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/how_to_play_menu.png"/>
-							</a>
-						</li>
-					</ul>
-					<script type="text/javascript">
-						/* jQuery('.page_item_news').hover(function(){
-							jQuery(this).attr('src','http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/news_menu_hover.png');
-						}); */
-					</script>
+					<div class="page_item_news left" onclick="location.href='#';"></div>
+					<div class="page_item_features left" onclick="location.href='#';"></div>
+					<div class="page_item_curriculum left" onclick="location.href='#';"></div>
+					<div class="page_item_student_life left" onclick="location.href='#';"></div>
+					<div class="page_item_accomodation left" onclick="location.href='http://wordpress-orientation.localhost/wordpress_orientation/?page_id=4';"></div>
+					<div class="page_item_apply left" onclick="location.href='#';"></div>
 				</nav><!-- #site-navigation -->
 			</div><!-- #navbar -->
 		</header><!-- #masthead -->

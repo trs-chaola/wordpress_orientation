@@ -9,6 +9,11 @@ Version: 0.1
 */
 
 @import url("../twentythirteen/style.css");
+/* general overide */
+div#page, body, .comment-respond, footer{
+	background:#f0f0ec;
+}
+
 .left{
 	float:left;
 }
@@ -17,37 +22,49 @@ Version: 0.1
 	float:right;
 }
 
-div.navbar{
-	background-color:transparent;
-}
-
-ul.nav-menu{
-	padding:0px !important;
-}
-
-.nav-menu li a{
-	padding:0px;
-	margin:0px;
-}
-
-div#page, body, .comment-respond, footer{
-	background:#f0f0ec;
-}
-
-.site-main{
-	max-width:970px;
-	margin:0 auto;
-}
-
 .entry-header, .entry-content, .entry-summary, .entry-meta{
 	margin: 0 auto;
-	max-width: 970px;
+	max-width: 955px;
 	width: 100%;
 }
 
 .main-navigation{
-	max-width: 970px;
+	max-width: 954px;
 }
+/* general overide */
+
+/* header */
+.page-titles{
+	font-family: inherit;
+	padding: 0px;
+	margin: 12px 0px 0px 20px;
+}
+
+.breadcrumbs{
+	font-size:12px;
+}
+
+div.entry-header{
+	margin-bottom:30px;
+	border-bottom: 1px solid rgba(46, 39, 39, 0.2);
+	padding-bottom: 30px;
+}
+
+.breadcrumbs a{
+	color:#0763A1;
+}
+/* end header */
+
+div.navbar{
+	background-color:transparent;
+}
+
+.site-main{
+	max-width:955px;
+	margin:0 auto;
+}
+
+
 
 .site-footer {
 	background-color: #333;
@@ -56,7 +73,7 @@ div#page, body, .comment-respond, footer{
 
 .header-logo{
 	margin: 25px auto;
-	max-width: 970px;
+	max-width: 955px;
 	width: 100%;
 }
 
@@ -70,53 +87,190 @@ div#page, body, .comment-respond, footer{
 
 .top-content-text{
 	margin: 0px auto;
-	max-width: 970px;
+	max-width: 955px;
 	color:#fff;
 }
 
 .top-content-text p{
-	font-size:12px;
+	font-size:14px;
 	margin-top:15px;
+}
+
+.top-content-text p a{
+	color:#fff;
+}
+
+.top-content-text p a:hover{
+	text-decoration:none;
 }
 
 .comments-area{
 	display:none;
 }
-
+/* footer */
 .pre-footer{
 	margin: 0px auto !important;
-	max-width: 970px;
+	max-width: 955px;
 	border:1px solid #e3e3e3;
 	background-color:#fff;
-	margin-bottom:40px;
 	padding:45px;
+}
+
+.company-info{
+	width:255px;	
+}
+
+.company-address{
+	font-size:14px;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+.company-address+img{
+	margin-bottom:10px;
+}
+
+.company-links{
+	margin-left:30px;
+	width:170px;
+}
+
+.company-links ul{
+	list-style-image: url('http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/bullet.png');
+}
+
+.company-links-entry{
+	color: #0763A1 !important;
+	margin: 0px !important;
+	width: 200px !important;
+	padding: 0px !important;
+}
+
+.company-links-entry:hover{
+	background-color:transparent !important;
+}
+
+.company-map{
+	width:340px;
+	margin-left:68px;
+	padding-left: 10px;
 }
 
 .footer-spacer{
 	height:40px;
 }
 
-.company-info{
-	width:255px;
-	
+footer.entry-meta{
+	background-color:#fff;
+}
+/* footer */
+
+/* article */
+.entry-content p {
+	padding:0px 20px;
 }
 
-.company-address{
-	font-size:14px;
-	margin-top:10px;
+.accomodation-image-container{
+	background-color:#E9E9E9;
+	padding:30px;
 }
 
-.company-links{
-	padding-left:10px;
-	width:170px;
+.accomodation-image-label{
+	width:242px;
+	text-align:right;
+	float:right;
+	padding: 0px !important;
+	margin: 0px;
 }
 
-.company-map{
-	width:340px;
-	padding-left:90px;
+
+.type-page{
+	padding:30px !important;
+	border: 1px solid #e3e3e3;
+	background-color: #fff;
+	margin-top:20px !important;
+	margin-bottom:20px !important;
+}
+
+#navcontainer ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#navcontainer ul li {
+	display: inline-block;
+	margin-right:30px;
+	margin-bottom:30px;
+}
+
+#navcontainer ul li:nth-child(4),#navcontainer ul li:nth-child(5){
+	margin-bottom:0px;
 }
 
 /* menu hovers */
 .page_item_news{
+	width:159px;
+	height:50px;
 	background-image:url('http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/news_menu.png');
+}
+
+.page_item_news:hover{
+	background-image:url('http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/news_menu_hover.png');
+	cursor:pointer;
+}
+
+.page_item_features{
+	width:159px;
+	height:50px;
+	background-image:url('http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/features_menu.png');
+}
+
+.page_item_features:hover{
+	background-image:url('http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/features_menu_hover.png');
+	cursor:pointer;
+}
+
+.page_item_curriculum{
+	width:159px;
+	height:50px;
+	background-image:url('http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/curriculum_menu.png');
+}
+
+.page_item_curriculum:hover{
+	background-image:url('http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/curriculum_menu_hover.png');
+	cursor:pointer;
+}
+
+.page_item_student_life{
+	width:159px;
+	height:50px;
+	background-image:url('http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/student_life_menu.png');
+}
+
+.page_item_student_life:hover{
+	background-image:url('http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/student_life_menu_hover.png');
+	cursor:pointer;
+}
+
+.page_item_accomodation{
+	width:159px;
+	height:50px;
+	background-image:url('http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/accommodation_menu.png');
+}
+
+.page_item_accomodation:hover{
+	background-image:url('http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/accommodation_menu_hover.png');
+	cursor:pointer;
+}
+
+.page_item_apply{
+	width:159px;
+	height:50px;
+	background-image:url('http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/how_to_play_menu.png');
+}
+
+.page_item_apply:hover{
+	background-image:url('http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/how_to_play_menu_hover.png');
+	cursor:pointer;
 }
