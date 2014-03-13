@@ -2500,10 +2500,11 @@ footer.entry-meta {
  */
 
 .site-footer {
-	background-color: #e8e5ce;
-	color: #686758;
+	/*background-color: #e8e5ce;*/
+	color: #/*686758  30*/fff;
 	font-size: 14px;
 	text-align: center;
+	padding-top: 45px;
 }
 
 .site-footer .widget-area,
