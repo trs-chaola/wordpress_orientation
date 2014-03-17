@@ -40,6 +40,9 @@ div#page, body, .comment-respond, footer{
 /* header */
 .page-titles{
 	font-family: inherit;
+	font-size:16px;
+	font-weight:bolder;
+	line-height:25px;
 	padding: 0px;
 	margin: 12px 0px 0px 20px;
 }
@@ -155,11 +158,15 @@ div.navbar{
 }
 
 .biz-hours{
-	font-size:13px;
+	font-size:1em;
+}
+
+.biz-hours font{
+	font-size:.8em;
 }
 
 .company-links{
-	margin-left:30px;
+	margin-left:50px;
 	width:170px;
 	font-size:13px;
 }
@@ -183,8 +190,7 @@ div.navbar{
 }
 
 .company-map{
-	width:340px;
-	margin-left:68px;
+	margin-left:20px;
 	padding-left: 10px;
 }
 
@@ -210,10 +216,11 @@ footer.entry-meta{
 }
 
 .accomodation-image-label{
+	font-size:14px;
 	width:242px;
 	text-align:right;
 	float:right;
-	padding: 0px !important;
+	padding: 0px 10px !important;
 	margin: 0px;
 }
 

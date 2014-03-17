@@ -20,7 +20,7 @@
 					</p>
 					<img src="<?php echo get_template_directory_uri(); ?>-child/images/header_and_footer/tel_number.png" alt="Dream Big English Contact Number"/>
 					<p class="biz-hours">
-						受付時間 08:00~22:00 （月～金曜日）<br/>
+						受付時間 <font>08:00~22:00</font> (月～金曜日)<br/>
 						※土日、祝日は休み
 					</p>
 				</div>
