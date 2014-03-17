@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 17, 2014 at 05:02 AM
+-- Generation Time: Mar 17, 2014 at 07:53 AM
 -- Server version: 5.5.36
 -- PHP Version: 5.4.25
 
@@ -274,7 +274,7 @@ CREATE TABLE IF NOT EXISTS `wp_postmeta` (
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (1, 2, '_wp_page_template', 'default'),
 (2, 4, '_edit_last', '1'),
-(3, 4, '_edit_lock', '1395027582:1'),
+(3, 4, '_edit_lock', '1395028930:1'),
 (4, 7, '_menu_item_type', 'custom'),
 (5, 7, '_menu_item_menu_item_parent', '0'),
 (6, 7, '_menu_item_object_id', '7'),
@@ -434,7 +434,7 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (1, 1, '2014-03-12 07:02:17', '2014-03-12 07:02:17', 'WordPress へようこそ。これは最初の投稿です。編集もしくは削除してブログを始めてください !', 'Hello world!', '', 'publish', 'open', 'open', '', 'hello-world', '', '', '2014-03-12 07:02:17', '2014-03-12 07:02:17', '', 0, 'http://wordpress-orientation.localhost/wordpress_orientation/?p=1', 0, 'post', '', 1),
 (2, 1, '2014-03-12 07:02:17', '2014-03-12 07:02:17', 'これはサンプルページです。同じ位置に固定され、(多くのテーマでは) サイトナビゲーションメニューに含まれるため、ブログ投稿とは異なります。サイト訪問者に対して自分のことを説明する自己紹介ページを作成するのが一般的です。たとえば以下のようなものになります。 \n\n<blockquote>はじめまして。昼間はバイク便のメッセンジャーとして働いていますが、俳優志望でもあります。これは僕のブログです。ロサンゼルスに住み、ジャックという名前のかわいい犬を飼っています。好きなものはピニャコラーダ (通り雨に濡れるのも) 。</blockquote>\n\nまたは、このようなものでもよいでしょう。\n\n<blockquote>XYZ 小道具株式会社は1971年の創立以来、高品質の小道具を皆様にご提供させていただいています。ゴッサム・シティに所在する当社では2,000名以上の社員が働いており、様々な形で地域のコミュニティへ貢献しています。</blockquote>\n\n新しく WordPress ユーザーになった方は、<a href="http://wordpress-orientation.localhost/wordpress_orientation/wp-admin/">ダッシュボード</a>へ行ってこのページを削除し、独自のコンテンツを含む新しいページを作成してください。それでは、お楽しみください !', 'サンプルページ', '', 'publish', 'open', 'open', '', 'sample-page', '', '', '2014-03-12 07:02:17', '2014-03-12 07:02:17', '', 0, 'http://wordpress-orientation.localhost/wordpress_orientation/?page_id=2', 0, 'page', '', 0),
 (3, 1, '2014-03-12 16:02:45', '0000-00-00 00:00:00', '', '自動下書き', '', 'auto-draft', 'open', 'open', '', '', '', '', '2014-03-12 16:02:45', '0000-00-00 00:00:00', '', 0, 'http://wordpress-orientation.localhost/wordpress_orientation/?p=3', 0, 'post', '', 0),
-(4, 1, '2014-03-12 16:27:38', '2014-03-12 07:27:38', '', '宿泊施設', '', 'publish', 'open', 'open', '', '%e5%ae%bf%e6%b3%8a%e6%96%bd%e8%a8%ad', '', '', '2014-03-17 12:39:41', '2014-03-17 03:39:41', '', 0, 'http://wordpress-orientation.localhost/wordpress_orientation/?page_id=4', 0, 'page', '', 0),
+(4, 1, '2014-03-12 16:27:38', '2014-03-12 07:27:38', '', '宿泊施設', '', 'publish', 'open', 'open', '', 'accommodation', '', '', '2014-03-17 12:39:41', '2014-03-17 03:39:41', '', 0, 'http://wordpress-orientation.localhost/wordpress_orientation/?page_id=4', 0, 'page', '', 0),
 (5, 1, '2014-03-12 16:27:38', '2014-03-12 07:27:38', 'ドリーム・ビッグ・イングリッシュは快適で清潔な宿泊施設を提供しています。 寮はキャンパスから5分ほどのところにあります。 これは地元の方と英語で会話する機会を生み、先生やクラスメートのみという閉鎖的な環境になるのを防ぐという狙いがあります。 寮施設にはランドリーステーションがあり、また、生徒の安全を確実にするために夜間セキュリティを配置しています。 私たちの寮施設は、主要なショッピングモール、ナイトスポット、レストラン、緊急サービスへの徒歩圏内に位置しています。 寝室は、個室または共同部屋があります（空き状況による）', '宿泊施設', '', 'inherit', 'open', 'open', '', '4-revision-v1', '', '', '2014-03-12 16:27:38', '2014-03-12 07:27:38', '', 4, 'http://wordpress-orientation.localhost/wordpress_orientation/?p=5', 0, 'revision', '', 0),
 (6, 1, '2014-03-13 12:58:23', '2014-03-13 03:58:23', 'ドリーム・ビッグ・イングリッシュは快適で清潔な宿泊施設を提供しています。\n寮はキャンパスから5分ほどのところにあります。\nこれは地元の方と英語で会話する機会を生み、先生やクラスメートのみという閉鎖的な環境になるのを防ぐという狙いがあります。\n\n寮施設にはランドリーステーションがあり、また、生徒の安全を確実にするために夜間セキュリティを配置しています。\n私たちの寮施設は、主要なショッピングモール、ナイトスポット、レストラン、緊急サービスへの徒歩圏内に位置しています。\n寝室は、個室または共同部屋があります（空き状況による）\n\n<div class="accomodation-image-container">\n<div id="navcontainer">\n<ul>\n<li>\n<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/bedroom1_pic.png"/>\n<p class="accomodation-image-label">寝室1</p>\n</li>\n<li>\n<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/bedroom1_pic.png"/>\n<p class="accomodation-image-label">寝室2</p>\n</li>\n<li>\n<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/bedroom1_pic.png"/>\n<p class="accomodation-image-label">キッチン</p>\n</li>\n<li>\n<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/bedroom1_pic.png"/>\n<p class="accomodation-image-label">トイレ</p>\n</li>\n<li>\n<img src="http://wordpress-orientation.localhost/wordpress_orientation/wp-content/uploads/2014/03/bedroom1_pic.png"/>\n<p class="accomodation-image-label">バルコニー</p>\n</li>\n</ul>\n</div>\n</div>', '宿泊施設', '', 'inherit', 'open', 'open', '', '4-autosave-v1', '', '', '2014-03-13 12:58:23', '2014-03-13 03:58:23', '', 4, 'http://wordpress-orientation.localhost/wordpress_orientation/?p=6', 0, 'revision', '', 0),
 (7, 1, '2014-03-12 16:54:32', '0000-00-00 00:00:00', '', 'ホーム', '', 'draft', 'open', 'open', '', '', '', '', '2014-03-12 16:54:32', '0000-00-00 00:00:00', '', 0, 'http://wordpress-orientation.localhost/wordpress_orientation/?p=7', 1, 'nav_menu_item', '', 0),
