@@ -249,6 +249,10 @@ footer.entry-meta{
 	background-image:url('http://wordpress-orientation.localhost/wp-content/themes/twentythirteen-child/images/menu/menu01/news_menu.png');
 }
 
+.page_item_news.current{
+	background-image:url('http://wordpress-orientation.localhost/wp-content/themes/twentythirteen-child/images/menu/menu02_hover/news_menu_hover.png');
+}
+
 .page_item_news:hover{
 	background-image:url('http://wordpress-orientation.localhost/wp-content/themes/twentythirteen-child/images/menu/menu02_hover/news_menu_hover.png');
 	cursor:pointer;
@@ -258,6 +262,10 @@ footer.entry-meta{
 	width:159px;
 	height:50px;
 	background-image:url('http://wordpress-orientation.localhost/wp-content/themes/twentythirteen-child/images/menu/menu01/features_menu.png');
+}
+
+.page_item_features.current{
+	background-image:url('http://wordpress-orientation.localhost/wp-content/themes/twentythirteen-child/images/menu/menu02_hover/features_menu_hover.png');
 }
 
 .page_item_features:hover{
@@ -271,6 +279,10 @@ footer.entry-meta{
 	background-image:url('http://wordpress-orientation.localhost/wp-content/themes/twentythirteen-child/images/menu/menu01/curriculum_menu.png');
 }
 
+.page_item_curriculum.current{
+	background-image:url('http://wordpress-orientation.localhost/wp-content/themes/twentythirteen-child/images/menu/menu02_hover/curriculum_menu_hover.png');
+}
+
 .page_item_curriculum:hover{
 	background-image:url('http://wordpress-orientation.localhost/wp-content/themes/twentythirteen-child/images/menu/menu02_hover/curriculum_menu_hover.png');
 	cursor:pointer;
@@ -280,6 +292,10 @@ footer.entry-meta{
 	width:159px;
 	height:50px;
 	background-image:url('http://wordpress-orientation.localhost/wp-content/themes/twentythirteen-child/images/menu/menu01/student_life_menu.png');
+}
+
+.page_item_student_life.current{
+	background-image:url('http://wordpress-orientation.localhost/wp-content/themes/twentythirteen-child/images/menu/menu02_hover/student_life_menu_hover.png');
 }
 
 .page_item_student_life:hover{
@@ -293,6 +309,10 @@ footer.entry-meta{
 	background-image:url('http://wordpress-orientation.localhost/wp-content/themes/twentythirteen-child/images/menu/menu01/accommodation_menu.png');
 }
 
+.page_item_accomodation.current{
+	background-image:url('http://wordpress-orientation.localhost/wp-content/themes/twentythirteen-child/images/menu/menu02_hover/accommodation_menu_hover.png');
+}
+
 .page_item_accomodation:hover{
 	background-image:url('http://wordpress-orientation.localhost/wp-content/themes/twentythirteen-child/images/menu/menu02_hover/accommodation_menu_hover.png');
 	cursor:pointer;
@@ -302,6 +322,10 @@ footer.entry-meta{
 	width:159px;
 	height:50px;
 	background-image:url('http://wordpress-orientation.localhost/wp-content/themes/twentythirteen-child/images/menu/menu01/how_to_play_menu.png');
+}
+
+.page_item_apply.current{
+	background-image:url('http://wordpress-orientation.localhost/wp-content/themes/twentythirteen-child/images/menu/menu02_hover/how_to_play_menu_hover.png');
 }
 
 .page_item_apply:hover{

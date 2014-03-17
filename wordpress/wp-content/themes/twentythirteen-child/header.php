@@ -61,15 +61,14 @@
 					<img src="<?php echo get_template_directory_uri(); ?>-child/images/header_and_footer/DBE_logo.png" alt="Dream Big English Logo"/>
 				</a>
 			</div>
-			
 			<div id="navbar" class="navbar">
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
-					<div class="page_item_news left" onclick="location.href='#';"></div>
-					<div class="page_item_features left" onclick="location.href='#';"></div>
-					<div class="page_item_curriculum left" onclick="location.href='#';"></div>
-					<div class="page_item_student_life left" onclick="location.href='#';"></div>
-					<div class="page_item_accomodation left" onclick="location.href='http://wordpress-orientation.localhost/?p=4';"></div>
-					<div class="page_item_apply left" onclick="location.href='#';"></div>
+					<div class="page_item_news left <?php echo ($_SERVER['REQUEST_URI'] == '/news/' ? 'current' : '');?>" onclick="location.href='#';"></div>
+					<div class="page_item_features left <?php echo ($_SERVER['REQUEST_URI'] == '/features/' ? 'current' : '');?>" onclick="location.href='#';"></div>
+					<div class="page_item_curriculum left <?php echo ($_SERVER['REQUEST_URI'] == '/curriculum/' ? 'current' : '');?>" onclick="location.href='#';"></div>
+					<div class="page_item_student_life left <?php echo ($_SERVER['REQUEST_URI'] == '/student-life/' ? 'current' : '');?>" onclick="location.href='#';"></div>
+					<div class="page_item_accomodation left <?php echo ($_SERVER['REQUEST_URI'] == '/accommodation/' ? 'current' : '');?>" onclick="location.href='http://wordpress-orientation.localhost/?p=4';"></div>
+					<div class="page_item_apply left <?php echo ($_SERVER['REQUEST_URI'] == '/apply/' ? 'current' : '');?>" onclick="location.href='#';"></div>
 				</nav><!-- #site-navigation -->
 			</div><!-- #navbar -->
 		</header><!-- #masthead -->
