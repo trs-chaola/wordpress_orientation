@@ -14,13 +14,13 @@
 		<div class="pre-footer">
 			<div class="left">
 				<div class="company-info">
-					<img src="<?php echo get_template_directory_uri(); ?>-child/images/header_and_footer/DBE_logo_footer.png"/>
+					<img src="<?php echo get_template_directory_uri(); ?>-child/images/header_and_footer/DBE_logo_footer.png" alt="Dream Big English Logo"/>
 					<p class="company-address">
 						no47A VISAYAS ST MARTIN VILLAGE A.S.FORTUNA ST MANDAUE CITY CEBU 6014
 					</p>
-					<img src="<?php echo get_template_directory_uri(); ?>-child/images/header_and_footer/tel_number.png"/>
-					<p>
-						受付時間 08:00~22:00 （月～金曜日）<br>
+					<img src="<?php echo get_template_directory_uri(); ?>-child/images/header_and_footer/tel_number.png" alt="Dream Big English Contact Number"/>
+					<p class="biz-hours">
+						受付時間 08:00~22:00 （月～金曜日）<br/>
 						※土日、祝日は休み
 					</p>
 				</div>
@@ -42,7 +42,7 @@
 			</div>
 			<div class="left">
 				<div class="company-map">
-					<img src="<?php echo get_template_directory_uri(); ?>-child/images/header_and_footer/dbe_map.png"/>
+					<img src="<?php echo get_template_directory_uri(); ?>-child/images/header_and_footer/dbe_map.png" alt="Dream Big English Map"/>
 				</div>
 			</div>
 			<br style="clear:both;"/>
@@ -51,8 +51,8 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			
 			<div class="site-info">
-				<img src="<?php echo get_template_directory_uri(); ?>-child/images/header_and_footer/dbe_footer-Copy.png"/><br>
-				<span>Copyright &copy; Dream Big English. All rights reserved</span>
+				<img src="<?php echo get_template_directory_uri(); ?>-child/images/header_and_footer/dbe_footer-Copy.png" alt="Dream Big English Footer"/><br/>
+				<span class="footer-text">Copyright &copy; Dream Big English. All rights reserved</span>
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->

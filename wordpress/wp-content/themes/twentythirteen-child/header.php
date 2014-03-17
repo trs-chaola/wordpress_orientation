@@ -52,7 +52,7 @@
 						初級者から上級者までレベルに合わせた学習プログラム
 					</p>
 					<p class="right">
-						<a href="#">よくあるご質問</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">お問い合わせ</a>
+						<a href="#">よくあるご質問</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">お問い合わせ</a>
 					</p>
 				</div>
 			</div>
@@ -68,7 +68,7 @@
 					<div class="page_item_features left" onclick="location.href='#';"></div>
 					<div class="page_item_curriculum left" onclick="location.href='#';"></div>
 					<div class="page_item_student_life left" onclick="location.href='#';"></div>
-					<div class="page_item_accomodation left" onclick="location.href='http://wordpress-orientation.localhost/?page_id=4';"></div>
+					<div class="page_item_accomodation left" onclick="location.href='http://wordpress-orientation.localhost/?p=4';"></div>
 					<div class="page_item_apply left" onclick="location.href='#';"></div>
 				</nav><!-- #site-navigation -->
 			</div><!-- #navbar -->
