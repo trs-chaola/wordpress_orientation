@@ -9,21 +9,33 @@ Version: 0.1
 */
 
 @import url("../twentythirteen/style.css");
-/* general overide */
-body{
-	font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
-}
+@import url("accommodation-styles.css");
+@import url("student-life-styles.css");
 
-div#page, body, .comment-respond, footer{
-	background:#f0f0ec;
-}
-
+/*
+** UTILITY CLASSES
+*/
 .left{
 	float:left;
 }
 
 .right{
 	float:right;
+}
+
+.clear{
+	clear:both;
+}
+
+/*
+** GENERAL OVERIDE
+*/
+body{
+	font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+div#page,body, .comment-respond, footer{
+	background:#f0f0ec;
 }
 
 .entry-header, .entry-content, .entry-summary, .entry-meta{
@@ -35,9 +47,19 @@ div#page, body, .comment-respond, footer{
 .main-navigation{
 	max-width: 954px;
 }
-/* general overide */
 
-/* header */
+div.navbar{
+	background-color:transparent;
+}
+
+.site-main{
+	max-width:955px;
+	margin:0 auto;
+}
+
+/*
+** HEADER STYLES
+*/
 .page-titles{
 	font-family: inherit;
 	font-size:16px;
@@ -66,37 +88,10 @@ div.entry-header{
 	color:#0763A1;
 	font-size:13px;
 }
-/* end header */
 
-div.navbar{
-	background-color:transparent;
-}
-
-.site-main{
-	max-width:955px;
-	margin:0 auto;
-}
-
-
-
-.site-footer {
-	background-color: #333;
-	color: #fff;
-	height: 110px;
-}
-
-.site-info{
-	height: 110px;
-}
-
-.footer-text{
-	font-size: 12px;
-	font-weight: bold;
-}
-
-.site-info img{
-	margin-top:-15px;
-}
+/* 
+** CONTENT HEAD
+*/
 
 .header-logo{
 	margin: 25px auto;
@@ -134,7 +129,28 @@ div.navbar{
 .comments-area{
 	display:none;
 }
-/* footer */
+
+/*
+** FOOTER
+*/
+.site-footer {
+	background-color: #333;
+	color: #fff;
+	height: 110px;
+}
+
+.site-info{
+	height: 110px;
+}
+
+.footer-text{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.site-info img{
+	margin-top:-15px;
+}
 .pre-footer{
 	margin: 0px auto !important;
 	max-width: 955px;
@@ -176,8 +192,6 @@ div.navbar{
 	line-height:25px;
 }
 
-
-
 .company-links-entry{
 	color: #0763A1 !important;
 	margin: 0px !important;
@@ -201,55 +215,10 @@ div.navbar{
 footer.entry-meta{
 	background-color:#fff;
 }
-/* footer */
 
-/* article */
-.entry-content p {
-	padding:0px 20px;
-	font-size:14px;
-	line-height:26px;
-}
-
-.accomodation-image-container{
-	background-color:#E9E9E9;
-	padding:30px;
-}
-
-.accomodation-image-label{
-	font-size:14px;
-	width:242px;
-	text-align:right;
-	float:right;
-	padding: 0px 10px !important;
-	margin: 0px;
-}
-
-
-.type-page{
-	padding:30px !important;
-	border: 1px solid #e3e3e3;
-	background-color: #fff;
-	margin-top:20px !important;
-	margin-bottom:20px !important;
-}
-
-#navcontainer ul{
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-
-#navcontainer ul li {
-	display: inline-block;
-	margin-right:30px;
-	margin-bottom:30px;
-}
-
-#navcontainer ul li:nth-child(4),#navcontainer ul li:nth-child(5){
-	margin-bottom:0px;
-}
-
-/* menu hovers */
+/*
+** NAV MENU HOVER STYLES
+*/
 .page_item_news{
 	width:159px;
 	height:50px;

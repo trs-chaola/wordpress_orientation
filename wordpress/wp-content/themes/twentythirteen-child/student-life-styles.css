@@ -1,0 +1,87 @@
+div.student-life-content{
+	width:767px;
+	margin:0 auto;
+	font-family:Meiryo;
+}
+
+img.cebu-school-life{
+	display:block;
+    margin:auto;
+	padding-bottom:25px;
+	padding-top:20px;
+}
+
+img.cebu-school-life.b{
+	padding-bottom:15px;
+}
+
+.cebu-life-entry{
+	width:360px;
+	height: 480px;
+	background: #E9E9E9;
+	padding:29px;
+}
+
+.cebu-life-entry+br.clear{
+	height:51px;
+	content:"";
+	display:table;
+}
+
+.school-life-entry{
+	width:360px;
+	height: 406px;
+	background: #E9E9E9;
+	padding:29px;
+}
+
+.school-life-entry+br.clear{
+	height:41px;
+	content:"";
+	display:table;
+}
+
+.cebu-life-entry img{
+	margin-bottom:20px;
+}
+
+.cebu-life-entry span{
+	font-size:15px;
+	margin-bottom:10px;
+	/* font-weight:bold; */
+}
+
+.cebu-life-entry span:after{
+	display:block;
+	content:"";
+	border-bottom:1px solid #FFD806;
+}
+
+.cebu-life-entry p{
+	padding:0px;
+	line-height:24px;
+	margin-top:19px;
+}
+
+
+.school-life-entry img{
+	margin-bottom:20px;
+}
+
+.school-life-entry span{
+	font-size:15px;
+	margin-bottom:10px;
+	/* font-weight:bold; */
+}
+
+.school-life-entry span:after{
+	display:block;
+	content:"";
+	border-bottom:1px solid #FFD806;
+}
+
+.school-life-entry p{
+	padding:0px;
+	line-height:24px;
+	margin-top:19px;
+}

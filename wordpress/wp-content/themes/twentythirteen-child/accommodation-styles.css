@@ -1,0 +1,44 @@
+.entry-content p {
+	padding:0px 20px;
+	font-size:14px;
+	line-height:26px;
+}
+
+.accomodation-image-container{
+	background-color:#E9E9E9;
+	padding:30px;
+}
+
+.accomodation-image-label{
+	font-size:14px;
+	width:242px;
+	text-align:right;
+	float:right;
+	padding: 0px 10px !important;
+	margin: 0px;
+}
+
+
+.type-page{
+	padding:30px !important;
+	border: 1px solid #e3e3e3;
+	background-color: #fff;
+	margin-top:20px !important;
+	margin-bottom:20px !important;
+}
+
+#navcontainer ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#navcontainer ul li {
+	display: inline-block;
+	margin-right:30px;
+	margin-bottom:30px;
+}
+
+#navcontainer ul li:nth-child(4),#navcontainer ul li:nth-child(5){
+	margin-bottom:0px;
+}

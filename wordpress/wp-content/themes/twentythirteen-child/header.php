@@ -29,13 +29,13 @@
 	<![endif]-->
 	<?php wp_head(); ?>
 	<script type="text/javascript">
-	 document.createElement('header');
-	 document.createElement('nav');
-	 document.createElement('menu');
-	 document.createElement('section');
-	 document.createElement('article');
-	 document.createElement('aside');
-	 document.createElement('footer');
+		document.createElement('header');
+		document.createElement('nav');
+		document.createElement('menu');
+		document.createElement('section');
+		document.createElement('article');
+		document.createElement('aside');
+		document.createElement('footer');
 	</script>
 </head>
 
@@ -66,7 +66,7 @@
 					<div class="page_item_news left <?php echo ($_SERVER['REQUEST_URI'] == '/news/' ? 'current' : '');?>" onclick="location.href='http://wordpress-orientation.localhost/?p=58';"></div>
 					<div class="page_item_features left <?php echo ($_SERVER['REQUEST_URI'] == '/features/' ? 'current' : '');?>" onclick="location.href='#';"></div>
 					<div class="page_item_curriculum left <?php echo ($_SERVER['REQUEST_URI'] == '/curriculum/' ? 'current' : '');?>" onclick="location.href='#';"></div>
-					<div class="page_item_student_life left <?php echo ($_SERVER['REQUEST_URI'] == '/student-life/' ? 'current' : '');?>" onclick="location.href='#';"></div>
+					<div class="page_item_student_life left <?php echo ($_SERVER['REQUEST_URI'] == '/student-life/' ? 'current' : '');?>" onclick="location.href='http://wordpress-orientation.localhost/?p=60';"></div>
 					<div class="page_item_accomodation left <?php echo ($_SERVER['REQUEST_URI'] == '/accommodation/' ? 'current' : '');?>" onclick="location.href='http://wordpress-orientation.localhost/?p=4';"></div>
 					<div class="page_item_apply left <?php echo ($_SERVER['REQUEST_URI'] == '/apply/' ? 'current' : '');?>" onclick="location.href='#';"></div>
 				</nav><!-- #site-navigation -->
