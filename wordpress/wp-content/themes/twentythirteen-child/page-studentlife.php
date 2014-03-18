@@ -50,34 +50,34 @@ get_header(); ?>
 						<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life.png" class="cebu-school-life b" alt="Cebu Life"/>
 						<br class="clear"/>
 						<div class="school-life-entry left">
-							<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life-img1.jpg" alt=""/>
+							<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life-img1.jpg" alt="Appearance"/>
 							<span>外観</span>
 							<p>みなさんに通っていただく校舎です。<br/>いつも清潔に、みなさんが快適に学習できる空間を提供いたします。</p> 
 						</div>
 						<div class="school-life-entry right">
-							<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life-img2.jpg" alt=""/>
+							<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life-img2.jpg" alt="Relaxation"/>
 							<span>くつろぎ</span>
 							<p>校舎内にもソファでリラックスして談話できるスペースがございます。学習以外に、先生や他の生徒とコミュニケーションをとれる場となっております。</p> 
 						</div>
 						<br class="clear"/>
 						<div class="school-life-entry left">
-							<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life-img3.jpg" alt=""/>
+							<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life-img3.jpg" alt="Group lessons classroom"/>
 							<span>グループレッスン教室</span>
 							<p>個人レッスンの他にもグループレッスンも学習カリキュラムに含まれております。個人レッスンでは得られない会話技術を身につけていただきます。</p> 
 						</div>
 						<div class="school-life-entry right">
-							<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life-img4.jpg" alt=""/>
+							<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life-img4.jpg" alt="Individual classroom lessons"/>
 							<span>個人レッスン教室</span>
 							<p>マンツーマンで集中して英会話学習できるよう、複数の半個室空間を0ご用意しております。</p> 
 						</div>
 						<br class="clear"/>
 						<div class="school-life-entry left">
-							<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life-img5.jpg" alt=""/>
+							<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life-img5.jpg" alt="Garden"/>
 							<span>庭</span>
 							<p>広葉樹の広がる庭です。ベンチも配置しておりますので、天気の良い日は外でのんびり過ごすことも可能です。</p> 
 						</div>
 						<div class="school-life-entry right">
-							<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life-img6.jpg" alt=""/>
+							<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life-img6.jpg" alt="2 relaxation"/>
 							<span>くつろぎ２</span>
 							<p>室内のみではなく、野外にもリラックスし談話できる空間がございます。</p> 
 						</div>
