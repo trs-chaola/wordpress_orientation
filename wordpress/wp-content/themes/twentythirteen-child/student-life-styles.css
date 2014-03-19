@@ -7,12 +7,12 @@ div.student-life-content{
 img.cebu-school-life{
 	display:block;
     margin:auto;
-	padding-bottom:25px;
-	padding-top:20px;
+	padding-top:17px;
 }
 
 img.cebu-school-life.b{
-	padding-bottom:15px;
+	padding-top: 70px;
+	padding-bottom:5px;
 }
 
 .cebu-life-entry{
@@ -22,12 +22,6 @@ img.cebu-school-life.b{
 	padding:29px;
 }
 
-.cebu-life-entry+br.clear{
-	height:51px;
-	content:"";
-	display:table;
-}
-
 .school-life-entry{
 	width:360px;
 	height: 406px;
@@ -35,10 +29,16 @@ img.cebu-school-life.b{
 	padding:29px;
 }
 
-.school-life-entry+br.clear{
-	height:41px;
-	content:"";
-	display:table;
+.cebu-life-entry-container{
+	margin-top:50px;
+}
+
+.school-life-entry-container{
+	margin-top:40px;
+}
+
+.school-life-entry-container:last-child{
+	margin-bottom: 40px;
 }
 
 .cebu-life-entry img{

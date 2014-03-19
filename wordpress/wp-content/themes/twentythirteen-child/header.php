@@ -37,6 +37,7 @@
 		document.createElement('aside');
 		document.createElement('footer');
 	</script>
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>-child/js/fancybox/jquery.fancybox.css" media="screen" />
 </head>
 
 <body <?php body_class(); ?>>
