@@ -38,6 +38,10 @@ img.cebu-school-life.b{
 	margin-top:45px;
 }
 
+.cebu-life-entry-container+div{
+	margin-bottom:45px;
+}
+
 .cebu-life-entry-container:last-child{
 	margin-bottom: 40px;
 }
