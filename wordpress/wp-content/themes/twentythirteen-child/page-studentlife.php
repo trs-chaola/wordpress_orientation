@@ -6,7 +6,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 			<div id="post-4" class="post-4 page type-page status-publish hentry">
-				<div class="entry-header">
+				<div class="entry-header clear">
 					<div class="left">
 						<img src="<?php echo get_template_directory_uri(); ?>-child/images/accomodation/accommondation_icon.png" alt="accomodation page icon"/>
 					</div>
@@ -19,12 +19,11 @@ get_header(); ?>
 					<div class="right breadcrumbs">
 						<a href="">TOP</a>&nbsp;>&nbsp;生徒の生活環境
 					</div>
-					<br style="clear:both;"/>
 				</div><!-- .entry-header -->
 				<div class="entry-content">
 					<div class="student-life-content">
 						<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life.png" class="cebu-school-life" alt="Cebu Life"/>
-						<div class="school-life-entry-container">
+						<div class="school-life-entry-container clear">
 							<div class="school-life-entry left">
 								<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/big/school-life-img1.png" data-fancybox-group="gallery">
 									<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life-img1.jpg" alt="Appearance"/>
@@ -39,9 +38,8 @@ get_header(); ?>
 								<span>くつろぎ</span>
 								<p>校舎内にもソファでリラックスして談話できるスペースがございます。学習以外に、先生や他の生徒とコミュニケーションをとれる場となっております。</p> 
 							</div>
-							<br class="clear"/>
 						</div>
-						<div class="school-life-entry-container">
+						<div class="school-life-entry-container clear">
 							<div class="school-life-entry left">
 								<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/big/school-life-img3.png" data-fancybox-group="gallery">
 									<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life-img3.jpg" alt="Group lessons classroom"/>
@@ -56,9 +54,8 @@ get_header(); ?>
 								<span>個人レッスン教室</span>
 								<p>マンツーマンで集中して英会話学習できるよう、複数の半個室空間を0ご用意しております。</p> 
 							</div>
-							<br class="clear"/>
 						</div>
-						<div class="school-life-entry-container">
+						<div class="school-life-entry-container clear">
 							<div class="school-life-entry left">
 								<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/big/school-life-img5.png" data-fancybox-group="gallery">
 									<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life-img5.jpg" alt="Garden"/>
@@ -73,11 +70,10 @@ get_header(); ?>
 								<span>くつろぎ２</span>
 								<p>室内のみではなく、野外にもリラックスし談話できる空間がございます。</p> 
 							</div>
-							<br class="clear"/>
 						</div>
 						
 						<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/cebulife-image.png" class="cebu-school-life b" alt="Cebu Life"/>
-						<div class="cebu-life-entry-container b">
+						<div class="cebu-life-entry-container b clear">
 							<div class="cebu-life-entry left">
 								<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/big/cebu-life-img1.jpg" data-fancybox-group="gallery">
 									<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/cebu-life-img1.jpg" alt="Beach"/>
@@ -92,9 +88,8 @@ get_header(); ?>
 								<span>ショッピング</span>
 								<p>セブにはアヤラセンターやSMモールのようにハイクラスのショッピングモールから、よりローカルなお店まであります。市内の多くの主要なショッピングセンターは校舎より10分以内のところにあります。</p> 
 							</div>
-							<br class="clear"/>
 						</div>
-						<div class="cebu-life-entry-container">
+						<div class="cebu-life-entry-container clear">
 							<div class="cebu-life-entry left">
 								<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/big/cebu-life-img3.jpg" data-fancybox-group="gallery">	
 									<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/cebu-life-img3.jpg" alt="Night Life"/>
@@ -109,7 +104,6 @@ get_header(); ?>
 								<span>アドベンチャー</span>
 								<p>休日には山や海などの自然が楽しめます。海でのアクティビティならオスロブのジンベイザメウォッチングやセブ周辺でのダイビング、棚尾でのウェイクボードがオススメ。ピクニックならセブ周辺で滝遊び、マウンテンビューネイチャーズパークでピクニックやジップラインが楽しめます。</p> 
 							</div>
-							<br class="clear"/>
 						</div>
 					</div>
 				</div><!-- .entry-content -->

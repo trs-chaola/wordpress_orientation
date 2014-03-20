@@ -6,7 +6,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 			<div id="post-4" class="post-4 page type-page status-publish hentry">
-				<div class="entry-header">
+				<div class="entry-header clear">
 					<div class="left">
 						<img src="<?php echo get_template_directory_uri(); ?>-child/images/accomodation/accommondation_icon.png" alt="accomodation page icon"/>
 					</div>
@@ -19,7 +19,6 @@ get_header(); ?>
 					<div class="right breadcrumbs">
 						<a href="">TOP</a>&nbsp;>&nbsp;宿泊施設
 					</div>
-					<br style="clear:both;"/>
 				</div><!-- .entry-header -->
 				<div class="entry-content">
 					<p>
