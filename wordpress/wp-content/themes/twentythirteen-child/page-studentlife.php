@@ -23,43 +23,7 @@ get_header(); ?>
 				</div><!-- .entry-header -->
 				<div class="entry-content">
 					<div class="student-life-content">
-						<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/cebulife-image.png" class="cebu-school-life" alt="Cebu Life"/>
-						<div class="cebu-life-entry-container">
-							<div class="cebu-life-entry left">
-								<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/big/cebu-life-img1.jpg" data-fancybox-group="gallery">
-									<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/cebu-life-img1.jpg" alt="Beach"/>
-								</a>
-								<span>ビーチ</span>
-								<p>校舎から1時間も満たない場所にゆったりした秘密のビーチから5つ星のホテルまであります。シャングリラマクタン、マリバゴブルーウォーター、オランゴ島のタリマヴィラも必見です。少し足を延ばせば、北のバンタヤン、南のモアルボアルがオススメです。</p>
-							</div>
-							<div class="cebu-life-entry right">
-								<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/big/cebu-life-img2.jpg" data-fancybox-group="gallery">
-									<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/cebu-life-img2.jpg" alt="Shopping"/>
-								</a>	
-								<span>ショッピング</span>
-								<p>セブにはアヤラセンターやSMモールのようにハイクラスのショッピングモールから、よりローカルなお店まであります。市内の多くの主要なショッピングセンターは校舎より10分以内のところにあります。</p> 
-							</div>
-							<br class="clear"/>
-						</div>
-						<div class="cebu-life-entry-container">
-							<div class="cebu-life-entry left">
-								<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/big/cebu-life-img3.jpg" data-fancybox-group="gallery">	
-									<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/cebu-life-img3.jpg" alt="Night Life"/>
-								</a>
-								<span>ナイトライフ</span>
-								<p>セブの夜の街にくり出すと、数えきれないほどのバー、クラブ、レストランが見つけられます。夕食には大きなショッピングモール、バーやクラブはITパークやバニラッド、マンゴー周辺がおススメです。</p> 
-							</div>
-							<div class="cebu-life-entry right">
-								<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/big/cebu-life-img4.jpg" data-fancybox-group="gallery">
-									<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/cebu-life-img4.jpg" alt="Adventure"/>
-								</a>
-								<span>アドベンチャー</span>
-								<p>休日には山や海などの自然が楽しめます。海でのアクティビティならオスロブのジンベイザメウォッチングやセブ周辺でのダイビング、棚尾でのウェイクボードがオススメ。ピクニックならセブ周辺で滝遊び、マウンテンビューネイチャーズパークでピクニックやジップラインが楽しめます。</p> 
-							</div>
-							<br class="clear"/>
-						</div>
-						
-						<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life.png" class="cebu-school-life b" alt="Cebu Life"/>
+						<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/school-life.png" class="cebu-school-life" alt="Cebu Life"/>
 						<div class="school-life-entry-container">
 							<div class="school-life-entry left">
 								<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/big/school-life-img1.png" data-fancybox-group="gallery">
@@ -108,6 +72,42 @@ get_header(); ?>
 								</a>
 								<span>くつろぎ２</span>
 								<p>室内のみではなく、野外にもリラックスし談話できる空間がございます。</p> 
+							</div>
+							<br class="clear"/>
+						</div>
+						
+						<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/cebulife-image.png" class="cebu-school-life b" alt="Cebu Life"/>
+						<div class="cebu-life-entry-container b">
+							<div class="cebu-life-entry left">
+								<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/big/cebu-life-img1.jpg" data-fancybox-group="gallery">
+									<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/cebu-life-img1.jpg" alt="Beach"/>
+								</a>
+								<span>ビーチ</span>
+								<p>校舎から1時間も満たない場所にゆったりした秘密のビーチから5つ星のホテルまであります。シャングリラマクタン、マリバゴブルーウォーター、オランゴ島のタリマヴィラも必見です。少し足を延ばせば、北のバンタヤン、南のモアルボアルがオススメです。</p>
+							</div>
+							<div class="cebu-life-entry right">
+								<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/big/cebu-life-img2.jpg" data-fancybox-group="gallery">
+									<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/cebu-life-img2.jpg" alt="Shopping"/>
+								</a>	
+								<span>ショッピング</span>
+								<p>セブにはアヤラセンターやSMモールのようにハイクラスのショッピングモールから、よりローカルなお店まであります。市内の多くの主要なショッピングセンターは校舎より10分以内のところにあります。</p> 
+							</div>
+							<br class="clear"/>
+						</div>
+						<div class="cebu-life-entry-container">
+							<div class="cebu-life-entry left">
+								<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/big/cebu-life-img3.jpg" data-fancybox-group="gallery">	
+									<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/cebu-life-img3.jpg" alt="Night Life"/>
+								</a>
+								<span>ナイトライフ</span>
+								<p>セブの夜の街にくり出すと、数えきれないほどのバー、クラブ、レストランが見つけられます。夕食には大きなショッピングモール、バーやクラブはITパークやバニラッド、マンゴー周辺がおススメです。</p> 
+							</div>
+							<div class="cebu-life-entry right">
+								<a class="fancybox" href="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/big/cebu-life-img4.jpg" data-fancybox-group="gallery">
+									<img src="<?php echo get_template_directory_uri(); ?>-child/images/studentlife/cebu-life-img4.jpg" alt="Adventure"/>
+								</a>
+								<span>アドベンチャー</span>
+								<p>休日には山や海などの自然が楽しめます。海でのアクティビティならオスロブのジンベイザメウォッチングやセブ周辺でのダイビング、棚尾でのウェイクボードがオススメ。ピクニックならセブ周辺で滝遊び、マウンテンビューネイチャーズパークでピクニックやジップラインが楽しめます。</p> 
 							</div>
 							<br class="clear"/>
 						</div>

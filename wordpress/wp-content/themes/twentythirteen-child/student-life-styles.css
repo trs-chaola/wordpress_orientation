@@ -8,11 +8,12 @@ img.cebu-school-life{
 	display:block;
     margin:auto;
 	padding-top:17px;
+	padding-bottom: 10px;
 }
 
 img.cebu-school-life.b{
 	padding-top: 70px;
-	padding-bottom:5px;
+	padding-bottom:0px;
 }
 
 .cebu-life-entry{
@@ -33,6 +34,14 @@ img.cebu-school-life.b{
 	margin-top:50px;
 }
 
+.cebu-life-entry-container.b{
+	margin-top:45px !important;
+}
+
+.cebu-life-entry-container:last-child{
+	margin-bottom: 40px;
+}
+
 .school-life-entry-container{
 	margin-top:40px;
 }
@@ -42,13 +51,14 @@ img.cebu-school-life.b{
 }
 
 .cebu-life-entry img{
-	margin-bottom:20px;
+	margin-bottom:10px;
 }
 
 .cebu-life-entry span{
 	font-size:15px;
 	margin-bottom:10px;
-	/* font-weight:bold; */
+	font-weight:bold;
+	line-height:35px;
 }
 
 .cebu-life-entry span:after{
@@ -65,13 +75,14 @@ img.cebu-school-life.b{
 
 
 .school-life-entry img{
-	margin-bottom:20px;
+	margin-bottom:10px;
 }
 
 .school-life-entry span{
 	font-size:15px;
 	margin-bottom:10px;
-	/* font-weight:bold; */
+	font-weight:bold;
+	line-height:35px;
 }
 
 .school-life-entry span:after{
