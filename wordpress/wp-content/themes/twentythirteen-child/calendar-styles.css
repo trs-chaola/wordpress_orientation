@@ -1,0 +1,44 @@
+div.tribe-events-notices{
+	visibility:hidden;
+	display:none;
+}
+
+div.tribe-bar-filters{
+	visibility:hidden;
+	display:none;
+}
+
+h2.tribe-events-page-title{
+	font-size: 22px;
+	font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+	color:#777776;
+}
+
+.tribe-events-sub-nav li a{
+	color:#32B7F4 !important;
+}
+
+.entry-content article{
+	padding:0px !important;
+	margin: 0px 54px 10px 54px  !important;
+	background-color:#F1F1F1;
+	border:none;
+}
+
+.entry-content article div.entry-content{
+	padding:30px !important;
+	margin: 0px !important;
+	width: 100% !important;
+}
+
+h2.tribe-events-page-title{
+	line-height:25px !important;
+}
+
+table.tribe-events-calendar{
+	line-height:1 !important;
+}
+
+#tribe-events-content{
+	margin-bottom: 0px;
+}

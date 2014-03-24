@@ -11,6 +11,7 @@ Version: 0.1
 @import url("../twentythirteen/style.css");
 @import url("accommodation-styles.css");
 @import url("student-life-styles.css");
+@import url("calendar-styles.css");
 
 /*
 ** UTILITY CLASSES
@@ -214,7 +215,7 @@ div.entry-header{
 }
 
 footer.entry-meta{
-	background-color:#fff;
+	background-color:transparent;
 }
 
 /*

@@ -64,7 +64,7 @@
 			</div>
 			<div id="navbar" class="navbar">
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
-					<div class="page_item_news left <?php echo ($_SERVER['REQUEST_URI'] == '/news/' ? 'current' : '');?>" onclick="location.href='http://wordpress-orientation.localhost/?p=58';"></div>
+					<div class="page_item_news left <?php echo ($_SERVER['REQUEST_URI'] == '/news/' ? 'current' : '');?>" onclick="location.href='http://wordpress-orientation.localhost/?p=63';"></div>
 					<div class="page_item_features left <?php echo ($_SERVER['REQUEST_URI'] == '/features/' ? 'current' : '');?>" onclick="location.href='#';"></div>
 					<div class="page_item_curriculum left <?php echo ($_SERVER['REQUEST_URI'] == '/curriculum/' ? 'current' : '');?>" onclick="location.href='#';"></div>
 					<div class="page_item_student_life left <?php echo ($_SERVER['REQUEST_URI'] == '/student-life/' ? 'current' : '');?>" onclick="location.href='http://wordpress-orientation.localhost/?p=60';"></div>
